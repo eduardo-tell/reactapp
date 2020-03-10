@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/eduardo-tell/reactapp/static/css/main.5f361e03.chunk.css",
+    "main.js": "/eduardo-tell/reactapp/static/js/main.b44aeac6.chunk.js",
+    "main.js.map": "/eduardo-tell/reactapp/static/js/main.b44aeac6.chunk.js.map",
+    "runtime-main.js": "/eduardo-tell/reactapp/static/js/runtime-main.e9a38fd9.js",
+    "runtime-main.js.map": "/eduardo-tell/reactapp/static/js/runtime-main.e9a38fd9.js.map",
+    "static/js/2.f8384d6e.chunk.js": "/eduardo-tell/reactapp/static/js/2.f8384d6e.chunk.js",
+    "static/js/2.f8384d6e.chunk.js.map": "/eduardo-tell/reactapp/static/js/2.f8384d6e.chunk.js.map",
+    "index.html": "/eduardo-tell/reactapp/index.html",
+    "precache-manifest.c3968001c8269a22fae7dce6b2a2c48a.js": "/eduardo-tell/reactapp/precache-manifest.c3968001c8269a22fae7dce6b2a2c48a.js",
+    "service-worker.js": "/eduardo-tell/reactapp/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/eduardo-tell/reactapp/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f8384d6e.chunk.js.LICENSE.txt": "/eduardo-tell/reactapp/static/js/2.f8384d6e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/eduardo-tell/reactapp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9a38fd9.js",
+    "static/js/2.f8384d6e.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.b44aeac6.chunk.js"
+  ]
+}
