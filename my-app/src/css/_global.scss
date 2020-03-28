@@ -1,0 +1,33 @@
+body, html{
+    font-family: 'Nunito';
+    font-weight: 200;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    transition-duration: 0.5s;
+}
+
+li{
+    list-style: none;
+}
+
+figure, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.main{
+    background-color: #eff6ff;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
