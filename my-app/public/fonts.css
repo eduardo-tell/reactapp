@@ -96,3 +96,63 @@
     font-style: normal;
 }
 
+h1{
+    font-size: 6rem
+}
+
+h2{
+    font-size: 4rem
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+p, a{
+    font-size: 1.8rem;
+}
+
+.black{
+	font-weight: 900;
+}
+
+.light{
+	font-weight: 200;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.color-white{
+    color: white;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.font-light{
+    font-weight: 200;
+}
+
+.font--black{
+    font-weight: 900;   
+}
+
+a {
+  text-decoration: none;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+textarea{
+    font-size: 1.8em;
+}

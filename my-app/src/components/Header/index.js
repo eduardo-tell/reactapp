@@ -7,6 +7,7 @@ document.querySelectorAll('.menu-itens__close')[0].addEventListener('click', alt
 
 function alterMenu(){  
     document.querySelectorAll('.menu-itens')[0].classList.toggle('open')
+    document.querySelectorAll('.main')[0].classList.toggle('blur')
 }
 
 function scroll(){    

@@ -1,0 +1,90 @@
+$green: green;
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.6em;
+    line-height: 16px;
+    padding: 15px 32px;
+    -webkit-appearance: none;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    flex-shrink: 0;
+    text-align: center;
+  
+    &:focus{
+        outline: none;
+        box-shadow: 0 0 0 4px #cbd6ee;
+    }
+  
+    &.round{
+      border-radius: 38px;
+    }
+  
+    &.full{
+      width: 100%;
+    }
+  
+    // Width
+    &.small{
+      padding: 0.8em;
+    }
+  
+    // Transparent Version
+    &.transparent{
+      border: 2px solid white;
+      background-color: transparent;
+      color: #ffff;
+  
+      &:hover{
+        background-color: #ffff;
+        color: $green;
+      }
+    }
+  
+    // Green Version
+    &.green{
+      background-color: $green;
+      color: #ffff;
+  
+      &:hover{
+        border: 2px solid $green;
+        background-color: #ffff;
+        color: $green;
+      }
+    }
+  
+    // Icons
+    &.arrow-right:after {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      transform: rotate(-40deg);
+      right: -10px;
+      position: relative;
+      border-right: 2px solid white;
+      border-bottom: 2px solid white;
+    }
+  
+    &.arrow-left:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      transform: rotate(40deg);
+      left: -10px;
+      position: relative;
+      border-left: 2px solid white;
+      border-bottom: 2px solid white;
+    }
+    
+    &.green:hover.arrow-left:before, 
+    &.green:hover.arrow-right:after{
+      border-color: $green;
+    }
+  
+}

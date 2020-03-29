@@ -46,6 +46,19 @@ header{
         }
     }
 
+    .open-menu{
+        background: url('./open-menu.svg') center no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        font-size: 0;
+        padding: 0;
+    }
+
+    .menu-itens__close{
+        width: 100%;
+    }
+
     @media screen and ( min-width: 780px ) {
         .menu-itens__close, .open-menu{
             display: none;
@@ -55,15 +68,16 @@ header{
     @media screen and ( max-width: 780px ) {
         .menu-itens{
             background-color: #ffff;
+            box-shadow: 0px 0px 10px 0px #d6dde4;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            text-align: center;
 
             &:not(.open){
                 top: -300px;
             }
 
-            position: absolute;
-            top: 0;
-            width: 100%;
-            text-align: center;
             ul{
                 flex-direction: column;
             }
