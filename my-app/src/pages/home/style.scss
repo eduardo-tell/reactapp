@@ -1,0 +1,56 @@
+.section-01{
+    background: #eff6ff url('../../assets/img_bg_wave.png') no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 100%;
+    height: auto;
+
+    .apresentation{
+        display: flex;
+        
+        & > div{
+            width: 50%;
+        }
+    }
+}
+
+.section-02 {
+    header {
+        ul {
+            display: flex;
+
+            li {
+                flex: 1;
+                text-align: center;
+                padding: 30px 20px;
+                position: relative;
+
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+                &:after {                    
+                    content: "";
+                    width: 100%;
+                    position: absolute;
+                    height: 0;
+                    background: #469D5F;
+                    opacity: 0;
+                    bottom: 0;
+                    transition: all .3s;
+                    left: 0;
+                }
+
+                &.ativo {
+                    color: #469D5F;
+
+                    &:after {
+                        opacity: 1;
+                        height: 3px;
+                    }
+                }
+            }
+        }
+    }
+}

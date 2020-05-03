@@ -1,56 +1,3 @@
-html, body {
-    box-sizing: border-box;
-    font-family: 'Nunito', Arial, sans-serif;
-    font-weight: 200;
-    position: relative;
-    overflow-x: hidden;
-    -webkit-text-size-adjust: 100%;
-    font-size: 10px;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-    transition-duration: 0.5s;
-}
-
-:focus {
-    outline-color: transparent;
-    outline-style: none;
-}
-
-::-moz-selection {
-    background: #2e66b7;
-    color: #fff;
-    text-shadow: none;
-}
-
-::selection {
-    background: #2e66b7;
-    color: #fff;
-    text-shadow: none;
-} 
-
-fieldset {
-    border: none;
-}
-
-body.easteregg {
-    transform: scaleX(-1);
-}
-
-a:active,
-label {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-img {
-    border: 0;
-}
-
 ul{
     list-style: none;
     margin: 0;
@@ -62,10 +9,13 @@ ul{
 }
 
 .main{
-    background-color: #eff6ff;
     display: block;
     width: 100%;
-    height: 100%;
+	height: auto;
+	
+	& > section:first-child{
+		padding-top: 200px
+	}
 }
 
 .container{

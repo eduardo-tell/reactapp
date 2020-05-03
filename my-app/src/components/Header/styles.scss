@@ -1,16 +1,56 @@
-header{
+body > header{
     height: 150px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     position: fixed;
     z-index: 1;
     width: 100%;
     top: 0;
     right: 0;
     left: 0;
+    transition-duration: 0.5s;
 
-    & + div{
+    & > div.content-laptop{
+        height: inherit;
+        
+        & > div{
+            height: inherit;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .menu-itens{
+                transition-duration: 0.5s;
+                
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+
+                    li{
+
+                        a{
+                            padding: 30px;
+                            display: inline-block;
+                            font-size: 1.6em;
+                            color: inherit;
+
+                            &:hover{
+                                color:green
+                            }
+                        }
+                    }
+                }
+
+                .menu__language{
+                    display: none;
+                }
+            }
+        }
+
+        @media screen and (max-width: 1024px) {
+            padding: 0;
+        }
+    }
+
+    & > div section:fis{
         padding-top: 200px;
     }
 
@@ -20,32 +60,6 @@ header{
         box-shadow: 0px 0px 10px 0px #d6dde4;
     }
 
-    .menu-itens{
-
-        ul{
-            display: flex;
-            justify-content: space-between;
-
-            li{
-                margin: 0 15px;
-
-                a{
-                    color: #7d93b2;
-                    padding: 30px;
-                    display: inline-block;
-
-                    &:hover{
-                        color:green
-                    }
-                }
-            }
-        }
-
-        .menu__language{
-            display: none;
-        }
-    }
-
     .open-menu{
         background: url('./open-menu.svg') center no-repeat;
         background-size: cover;
@@ -53,6 +67,7 @@ header{
         height: 40px;
         font-size: 0;
         padding: 0;
+        margin: 30px;
     }
 
     .menu-itens__close{
